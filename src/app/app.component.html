@@ -37,10 +37,14 @@
 <!-- Main Content -->
 
 <div class="container mt-5 pt-5">
+    <!-- data Binding -->
+    <input type="text" [(ngModel)] = "yourName" /> 
+    <h3>{{yourName}}</h3>
+    <!-- <h2  id = "result1"></h2>
+    <h2  id = "result2">{{array| json}}</h2> -->
+
     
-    <h2  id = "result1"></h2>
-    <h2  id = "result2">{{array| json}}</h2>
-    <div  class="row">
+    <!-- <div  class="row">
         <div class="col-6 mb-3" *ngFor = "let outlst of abc.articles">
             <div class="card-deck">
                 <div class="card rounded">
@@ -54,6 +58,9 @@
                 </div>
             </div>    
         </div>    
-    </div>
+    </div> -->
+
+    
 </div>
 <!-- <button (click) = "getProfile()">Get Profile</button> -->
+<button (click) = "postProfile()">Post Profile</button>

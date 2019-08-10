@@ -1,6 +1,17 @@
-{"employees":[  
-    {"name":"Shyam", "email":"shyamjaiswal@gmail.com"},  
-    {"name":"Bob", "email":"bob32@gmail.com"},  
-    {"name":"Jai", "email":"jai87@gmail.com"}  
-    ]
-}  
+[
+    {
+      "id": 1,
+      "name": "john",
+      "age": 21
+    },
+    {
+      "id": 2,
+      "name": "judy",
+      "age": 31
+    },
+    {
+      "id": 3,
+      "name": "jack",
+      "age": 41
+    }
+  ]
